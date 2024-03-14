@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta viewport="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOTES</title>
     <link rel="icon" href="https://bafkreibtonwq63rcsxrgqrtooj3wakmn5efpekmuugbds7dfjrxdatpcci.ipfs.nftstorage.link/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome CSS -->
@@ -87,6 +87,20 @@
 
         .telegram-icon {
             background-color: #0088cc;
+        }
+
+        .about-section {
+            background-color: #15202B; /* Matching header/footer color */
+            padding: 20px;
+            text-align: center;
+            margin: 20px auto; /* Added for spacing around the section */
+            border-radius: 10px; /* Softening the edges */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adding a subtle shadow */
+        }
+
+        .about-section p {
+            font-size: 16px; /* Adjusting the font size for readability */
+            line-height: 1.6; /* Improving line spacing for readability */
         }
 
         .gallery-container {
@@ -175,6 +189,15 @@
             <a href="t.me/cnotesonsol" target="_blank" class="social-icon telegram-icon">Telegram</a>
         </nav>
     </header>
+    
+    <div class="about-section">
+        <h2>ABOUT $CNOTE</h2>
+        <p>Community Notes Community on Solana</p>
+        <p>With Great Power comes Great Responsibilities</p>
+        <p>Don't fade a strong community</p>
+        <p>Stay Woke, Not Broke</p>
+    </div>
+
     <div class="gallery-container">
         <section class="gallery">
             <img src="https://bafybeia6tnpl3cwops6llbfxeqjmo52ry3eujmcb3gdjpk6kmlsdmgar2y.ipfs.nftstorage.link/" alt="Tweet Image 1" class="active">
@@ -186,11 +209,11 @@
             <button class="btn next" onclick="changeSlide(1)">&#10095;</button>
         </section>
     </div>
-
+    
     <section class="buy-section">
         <a href="https://raydium.io/" target="_blank" class="buy-button">BUY NOTES</a>
     </section>
-
+   
     <footer>
         <p>© 2024 NOTES</p>
     </footer>
